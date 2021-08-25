@@ -1,6 +1,6 @@
 # For run this game, you should run this in terminal and give Two number for list(first number and last number) after the __name__
-# For example :- python gussing_number 1 10 (1=for staring number and 10= for last number of list)
-#              -------------------------------
+# For example :- "python .\gussing_number.py 1 10" (1=for staring number and 10= for last number of list)
+#                 -------------------------------
 
 import random
 import sys
