@@ -25,7 +25,10 @@ if __name__ == '__main__':
                 print('Enter a valid number')  
            
  
-check(int(sys.argv[1]),int(sys.argv[2]))
+if len(sys.argv)>1:
+    check(int(sys.argv[1]),int(sys.argv[2]))
+else:
+    print('**Funtion requried two argument**\n**eg. funtion.py x y**')
 #sys.argv[1] for you enter first number after __name__ in terminal.
 #sys.argv[2] for you enter second number after sys.argv[1]
 
